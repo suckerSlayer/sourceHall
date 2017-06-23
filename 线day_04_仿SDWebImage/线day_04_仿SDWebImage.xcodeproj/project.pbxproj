@@ -13,6 +13,7 @@
 		379CD8061EFD4BA6007E1411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CD8041EFD4BA6007E1411 /* Main.storyboard */; };
 		379CD8081EFD4BA6007E1411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379CD8071EFD4BA6007E1411 /* Assets.xcassets */; };
 		379CD80B1EFD4BA6007E1411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CD8091EFD4BA6007E1411 /* LaunchScreen.storyboard */; };
+		379CD8171EFD50D4007E1411 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CD8161EFD50D4007E1411 /* DownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		379CD8071EFD4BA6007E1411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379CD80A1EFD4BA6007E1411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379CD80C1EFD4BA6007E1411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CD8151EFD50D4007E1411 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		379CD8161EFD50D4007E1411 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				379CD7FE1EFD4BA6007E1411 /* AppDelegate.h */,
 				379CD7FF1EFD4BA6007E1411 /* AppDelegate.m */,
+				379CD8151EFD50D4007E1411 /* DownloadOperation.h */,
+				379CD8161EFD50D4007E1411 /* DownloadOperation.m */,
 				379CD8011EFD4BA6007E1411 /* ViewController.h */,
 				379CD8021EFD4BA6007E1411 /* ViewController.m */,
 				379CD8041EFD4BA6007E1411 /* Main.storyboard */,
@@ -153,6 +158,7 @@
 				379CD8031EFD4BA6007E1411 /* ViewController.m in Sources */,
 				379CD8001EFD4BA6007E1411 /* AppDelegate.m in Sources */,
 				379CD7FD1EFD4BA6007E1411 /* main.m in Sources */,
+				379CD8171EFD50D4007E1411 /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				379CD8111EFD4BA6007E1411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
